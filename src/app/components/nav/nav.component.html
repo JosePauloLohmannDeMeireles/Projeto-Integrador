@@ -1,0 +1,16 @@
+<nav>
+    <ul>
+        <li><button (click)="curso()">Cursos / Escolaridade</button></li>
+        <li><button (click)="ex()">Experiencia</button></li>
+        <li><button (click)="hob()">Hobbis</button></li>
+    </ul>
+</nav>
+<div *ngIf="vcurso">
+    <app-cursos></app-cursos>
+</div>
+<div *ngIf="exp" >
+    <app-experiencias></app-experiencias>
+</div>
+<div *ngIf="ho">
+    <app-hobbis></app-hobbis>
+</div>
