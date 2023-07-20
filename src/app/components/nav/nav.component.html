@@ -1,16 +1,10 @@
 <nav>
-    <ul>
-        <li><button (click)="curso()">Cursos / Escolaridade</button></li>
-        <li><button (click)="ex()">Experiencia</button></li>
-        <li><button (click)="hob()">Hobbis</button></li>
-    </ul>
-</nav>
-<div *ngIf="vcurso">
-    <app-cursos></app-cursos>
-</div>
-<div *ngIf="exp" >
-    <app-experiencias></app-experiencias>
-</div>
-<div *ngIf="ho">
-    <app-hobbis></app-hobbis>
-</div>
+    <!-- Link para a página de cursos -->
+    <a routerLink="/" routerLinkActive="active">Cursos</a>
+  
+    <!-- Link para a página de experiências -->
+    <a routerLink="/experiencias" routerLinkActive="active">Experiências</a>
+  
+    <!-- Link para a página de hobbies -->
+    <a routerLink="/hobbis" routerLinkActive="active">Hobbies</a>
+  </nav>

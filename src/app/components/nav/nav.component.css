@@ -1,0 +1,15 @@
+a{
+    padding: 10px 235px 10px 235px;
+    margin: 0px 50px 0px 30px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.3s;
+    padding: 12px 230px 12px 230px;
+    color: rgb(255, 68, 0);
+    font-size: 20px;
+    font: bolder;
+    background-color: rgb(141, 124, 124);
+}
