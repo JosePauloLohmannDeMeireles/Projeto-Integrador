@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Hind+Madurai:wght@300&family=Roboto:wght@100&display=swap');
 h1{
     text-align: center;
 }
@@ -14,9 +15,11 @@ hr{
     border: 1px solid black;
 }
 div{
+    font-family: 'Roboto';
     border: 3px solid black;
     background-color: rgb(222, 110, 70);
-
+    margin: 0px 240px 0px 240px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.7);
 }
 h2{
     text-align: left;
