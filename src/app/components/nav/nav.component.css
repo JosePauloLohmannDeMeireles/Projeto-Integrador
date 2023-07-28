@@ -8,8 +8,9 @@ a{
 a:hover{
     transition: 0.3s;
     padding: 12px 230px 12px 230px;
-    color: rgb(255, 68, 0);
+    color: rgb(185, 54, 54);
+    box-shadow: 0px 02px 4px black;
     font-size: 20px;
     font: bolder;
-    background-color: rgb(141, 124, 124);
+    background-color: rgb(222, 110, 70);
 }
